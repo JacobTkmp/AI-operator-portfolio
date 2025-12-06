@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Intro from './components/Intro'
+import Offer from './components/Offer'
 import About from './components/About'
-import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <main>
         <Intro />
-        <About />
-        <Skills />
+        <Offer />
         <Contact />
+        <About />
       </main>
       <Footer />
     </div>
@@ -21,4 +21,3 @@ function App() {
 }
 
 export default App
-

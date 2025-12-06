@@ -14,13 +14,13 @@ function Intro() {
       <div className="max-w-4xl mx-auto px-6 py-20 text-center">
         {/* Main Headline */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
-          AI Operator helping businesses
-          <span className="text-orange-500"> automate boring work</span>
+          Your team is losing hours every week
+          <span className="text-orange-500"> to work AI could handle</span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          I design and build AI automation systems so your team can move faster with less work.
+          Turn ten hours of messy manual work into one hour of clean automated execution inside thirty days.
         </p>
 
         {/* Button Group */}
@@ -38,12 +38,12 @@ function Intro() {
               hover:-translate-y-0.5
             "
           >
-            Get in Touch
+            Book a Call to Get Leverage
           </button>
 
           {/* Secondary Button */}
           <button
-            onClick={() => scrollToSection('#skills')}
+            onClick={() => scrollToSection('#offer')}
             className="
               w-full sm:w-auto px-8 py-4 
               bg-white hover:bg-slate-50
@@ -54,13 +54,13 @@ function Intro() {
               hover:-translate-y-0.5
             "
           >
-            View Services
+            See How It Works
           </button>
         </div>
 
         {/* Credibility Line */}
         <p className="text-sm text-slate-500">
-          AI operations and automation for small businesses
+          For business owners who want leverage, not more tools
         </p>
       </div>
     </section>

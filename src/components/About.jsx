@@ -26,11 +26,11 @@ function About() {
           {/* Text Content - Left on desktop */}
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-semibold text-slate-900 mb-6">
-              Helping Businesses Embrace AI
+              Business First, Tech Second
             </h3>
             
             <p className="text-slate-600 leading-relaxed mb-8">
-              I'm a certified AI Operator who builds practical, no-fluff solutions for businesses. I'm not here to automate for the sake of automating — I solve real problems. I map your processes, teach AI how they work, build the system, and deliver workflows your team can actually use. My experience in sales, operations, marketing, and automation means I think "business first, tech second," so every system I build supports real outcomes.
+              I build practical systems that save time, not shiny automations that collect dust. I map your processes, teach AI how they work, build the workflow, and roll it out so your team can actually use it. My background in sales, operations, and marketing means I understand business problems first and reach for tech second. If it does not save you hours, it is not done.
             </p>
 
             {/* Key Facts */}
@@ -84,9 +84,9 @@ function About() {
               </h3>
               
               <p className="text-slate-600 leading-relaxed mb-6">
-                I've invested significant time mastering the tools and technologies that 
-                power modern AI systems. My expertise spans multiple platforms and frameworks, 
-                allowing me to create comprehensive solutions tailored to each client's needs.
+                I have trained with operators who build AI systems for real businesses. 
+                The focus is always on leverage: finding the workflows that waste time 
+                and replacing them with systems that work.
               </p>
 
               <ul className="space-y-3">

@@ -14,8 +14,8 @@ function Navbar() {
 
   const navLinks = [
     { name: 'Intro', href: '#intro' },
+    { name: 'The Offer', href: '#offer' },
     { name: 'About', href: '#about' },
-    { name: 'Skills & Services', href: '#skills' },
     { name: 'Contact', href: '#contact' },
   ]
 
