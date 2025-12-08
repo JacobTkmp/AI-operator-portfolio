@@ -162,8 +162,11 @@ function Offer() {
 
         {/* Price Box */}
         <div className="bg-slate-900 rounded-2xl p-8 sm:p-10 mb-6 text-center">
-          <p className="text-slate-400 text-sm mb-2">
-            AI Operators charge $5,000/month. I charge a flat rate.
+          <p className="text-slate-400 text-sm mb-1">
+            Most AI Operators charge $5,000/month.
+          </p>
+          <p className="text-slate-400 text-sm mb-4">
+            I charge...
           </p>
           <div className="text-4xl sm:text-5xl font-bold text-white mb-2">
             $2,800/month
@@ -171,10 +174,12 @@ function Offer() {
           <p className="text-slate-300 mb-6">
             After your free first automation.
           </p>
-          <button
-            onClick={() => scrollToSection('#contact')}
+          <a
+            href="https://calendly.com/tekampejacob45/ai-solution-discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
-              px-10 py-4 
+              inline-block px-10 py-4 
               bg-orange-500 hover:bg-orange-600 
               text-white font-semibold text-base
               rounded-full shadow-lg shadow-orange-500/25
@@ -184,7 +189,7 @@ function Offer() {
             "
           >
             Book a Call to Get Leverage
-          </button>
+          </a>
         </div>
 
         {/* Scarcity - Prominent */}
