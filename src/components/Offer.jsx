@@ -192,7 +192,7 @@ function Offer() {
         </div>
 
         {/* Scarcity - Prominent */}
-        <div className="text-center bg-orange-50 border border-orange-200 rounded-xl p-6">
+        <div className="text-center bg-orange-50 border border-orange-200 rounded-xl p-6 glow-orange">
           <p className="text-lg font-semibold text-slate-900">
             I take 4 new clients per month.
           </p>
