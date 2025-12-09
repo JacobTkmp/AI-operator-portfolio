@@ -162,8 +162,11 @@ function Offer() {
 
         {/* Price Box */}
         <div className="bg-slate-900 rounded-2xl p-8 sm:p-10 mb-6 text-center">
+          <p className="text-slate-300 text-lg mb-1">
+            Most AI Operators charge $5,000/month.
+          </p>
           <p className="text-slate-300 text-lg mb-4">
-            Most AI Operators charge $5,000/month. I charge...
+            I charge...
           </p>
           <div className="text-4xl sm:text-5xl font-bold text-white mb-2">
             $2,800/month
