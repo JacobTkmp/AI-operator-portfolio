@@ -27,7 +27,7 @@ function Intro() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           {/* Primary Button */}
           <button
-            onClick={() => scrollToSection('#contact')}
+            onClick={() => window.Calendly?.initPopupWidget({url: 'https://calendly.com/tekampejacob45/ai-solution-discovery-call'})}
             className="
               w-full sm:w-auto px-8 py-4 
               bg-orange-500 hover:bg-orange-600 

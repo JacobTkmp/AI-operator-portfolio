@@ -5,8 +5,11 @@ function Contact() {
         {/* Section Header */}
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-            Ready to Get Leverage?
+            Prefer to send details first?
           </h2>
+          <p className="text-slate-600 max-w-xl mx-auto mb-4">
+            We will review your information and reach out to you.
+          </p>
           <div className="w-16 h-1 bg-orange-500 mx-auto rounded-full"></div>
         </div>
 

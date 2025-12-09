@@ -25,7 +25,7 @@ function Offer() {
     {
       number: '4',
       title: 'Done-For-You Automation Build',
-      description: 'I design, build, test, and deploy the automation that removes the bottleneck and replaces hours of manual work.',
+      description: 'I design, build, test, and roll out the automation that removes the bottleneck and replaces hours of manual work.',
     },
     {
       number: '5',
@@ -162,22 +162,17 @@ function Offer() {
 
         {/* Price Box */}
         <div className="bg-slate-900 rounded-2xl p-8 sm:p-10 mb-6 text-center">
-          <p className="text-slate-400 text-sm mb-1">
-            Most AI Operators charge $5,000/month.
-          </p>
-          <p className="text-slate-400 text-sm mb-4">
-            I charge...
+          <p className="text-slate-300 text-lg mb-4">
+            Most AI Operators charge $5,000/month. I charge...
           </p>
           <div className="text-4xl sm:text-5xl font-bold text-white mb-2">
             $2,800/month
           </div>
-          <p className="text-slate-300 mb-6">
-            After your free first automation.
+          <p className="text-slate-300 text-lg mb-6">
+            <span className="font-bold underline">After</span> your first free automation.
           </p>
-          <a
-            href="https://calendly.com/tekampejacob45/ai-solution-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => window.Calendly?.initPopupWidget({url: 'https://calendly.com/tekampejacob45/ai-solution-discovery-call'})}
             className="
               inline-block px-10 py-4 
               bg-orange-500 hover:bg-orange-600 
@@ -186,10 +181,11 @@ function Offer() {
               transition-all duration-200 
               hover:shadow-xl hover:shadow-orange-500/30
               hover:-translate-y-0.5
+              cursor-pointer
             "
           >
             Book a Call to Get Leverage
-          </a>
+          </button>
         </div>
 
         {/* Scarcity - Prominent */}
