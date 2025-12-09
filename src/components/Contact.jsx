@@ -46,23 +46,10 @@ function Contact() {
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
             Let&apos;s Work Together
           </h2>
-          <p className="text-slate-600 max-w-xl mx-auto mb-4">
-            Ready to start using AI to get leverage in your business
-          </p>
-          <div className="w-16 h-1 bg-orange-500 mx-auto rounded-full"></div>
-        </div>
-
-        {/* Call to action button */}
-        <div className="flex flex-col items-center gap-4 mb-8">
-          <button
-            onClick={() => window.Calendly?.initPopupWidget({url: 'https://calendly.com/tekampejacob45/ai-solution-discovery-call'})}
-            className="inline-flex items-center justify-center px-8 py-4 rounded-full font-semibold text-base bg-orange-500 hover:bg-orange-600 text-white shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-200 cursor-pointer"
-          >
-            Book a Call to Get Leverage
-          </button>
-          <p className="text-sm text-slate-500 text-center max-w-md">
+          <p className="text-sm text-slate-500 text-center max-w-md mx-auto mb-4">
             Prefer to send details first? Fill out the form below and we will reach out to you.
           </p>
+          <div className="w-16 h-1 bg-orange-500 mx-auto rounded-full"></div>
         </div>
 
         {/* Contact Form */}
