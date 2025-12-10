@@ -10,7 +10,7 @@ function Offer() {
     {
       number: '1',
       title: '30-Minute Bottleneck Diagnostic',
-      description: 'We identify the single highest-ROI bottleneck in your workflow.',
+      description: 'In the first 30 minutes we identify your highest ROI bottleneck.',
     },
     {
       number: '2',
@@ -47,8 +47,13 @@ function Offer() {
     },
     {
       title: 'Automation Blueprint',
-      description: 'The documentation and SOP so you can scale or update your automation easily.',
+      description: 'The complete design for your future automated workflow.',
       value: '$750',
+    },
+    {
+      title: 'AI Operator Diagnostic',
+      description: 'Clarity on your workflow, bottlenecks, and time leaks.',
+      value: '$500',
     },
     {
       title: 'Team Training Script',
@@ -57,7 +62,7 @@ function Offer() {
     },
     {
       title: '30-Day Optimization',
-      description: 'We iterate until it is perfect.',
+      description: 'We iterate until it is perfect, running a full 30 day optimization cycle to monitor performance, fix edge cases, and enhance reliability as your team uses the system. You get a dedicated partner making sure everything works.',
       value: '$500',
     },
   ]
@@ -129,7 +134,7 @@ function Offer() {
             Bonuses Included
           </h3>
           <div className="grid sm:grid-cols-2 gap-6">
-            {bonuses.map((bonus, index) => (
+            {bonuses.slice(0, 4).map((bonus, index) => (
               <div
                 key={index}
                 className="bg-white rounded-2xl p-6 border border-slate-100"
@@ -147,6 +152,22 @@ function Offer() {
                 </p>
               </div>
             ))}
+          </div>
+          {/* 30-Day Optimization - Centered Full Width */}
+          <div className="mt-6 max-w-xl mx-auto">
+            <div className="bg-white rounded-2xl p-6 border border-slate-100">
+              <div className="flex justify-between items-start mb-3">
+                <h4 className="text-lg font-semibold text-slate-900">
+                  {bonuses[4].title}
+                </h4>
+                <span className="text-sm font-medium text-orange-500">
+                  Value: {bonuses[4].value}
+                </span>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                {bonuses[4].description}
+              </p>
+            </div>
           </div>
         </div>
 
