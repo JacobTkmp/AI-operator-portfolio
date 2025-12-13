@@ -38,7 +38,7 @@ function Intro() {
               hover:-translate-y-0.5
             "
           >
-            Book a Call to Get Leverage
+            Claim Your Free Bottleneck Diagnostic
           </button>
 
           {/* Secondary Button */}

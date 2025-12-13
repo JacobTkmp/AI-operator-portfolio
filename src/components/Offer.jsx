@@ -30,7 +30,7 @@ function Offer() {
     {
       number: '5',
       title: 'End-to-End Execution',
-      description: 'No learning AI, no process mapping, no tool migrations. I handle everything.',
+      description: 'You don\'t touch any of the tech. No building automations, technical setup, tool migrations. I handle all of that for you.',
     },
     {
       number: '6',
@@ -172,7 +172,7 @@ function Offer() {
         </div>
 
         {/* Guarantee - Prominent */}
-        <div className="bg-white border-2 border-orange-500 rounded-2xl p-8 sm:p-10 mb-16 text-center">
+        <div className="bg-white border-2 border-orange-500 rounded-2xl p-8 sm:p-10 mb-16 text-center glow-orange">
           <h3 className="text-2xl font-bold text-slate-900 mb-4">
             My Guarantee
           </h3>
@@ -208,7 +208,7 @@ function Offer() {
               cursor-pointer
             "
           >
-            Book a Call to Get Leverage
+            Claim Your Free Bottleneck Diagnostic
           </button>
         </div>
 
