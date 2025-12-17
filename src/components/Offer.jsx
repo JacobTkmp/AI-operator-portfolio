@@ -189,10 +189,13 @@ function Offer() {
           <p className="text-slate-300 text-lg mb-4">
             I charge...
           </p>
-          <div className="text-4xl sm:text-5xl font-bold text-white mb-2">
-            $2,800/month
+          <div className="text-4xl sm:text-5xl font-bold text-white mb-1">
+            $2,800
           </div>
-          <p className="text-slate-300 text-lg mb-6">
+          <p className="text-slate-300 text-lg mb-2">
+            every 4 weeks
+          </p>
+          <p className="text-white text-lg mb-6">
             <span className="font-bold underline">After</span> your first free automation.
           </p>
           <button
