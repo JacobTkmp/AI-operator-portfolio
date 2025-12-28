@@ -190,7 +190,7 @@ function Offer() {
             I charge...
           </p>
           <div className="text-4xl sm:text-5xl font-bold text-white mb-1">
-            $2,800
+            $3,000
           </div>
           <p className="text-slate-300 text-lg mb-2">
             every 4 weeks
